@@ -80,6 +80,13 @@ Senha: password
 
 Banco: salesdb
 
+build: passing
+
+coverage: 90%
+
+python version: 3.x
+
+
 👨‍💻 Autor
 
 João Bosco Ferreira
