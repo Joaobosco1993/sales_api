@@ -1,0 +1,25 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Banco de dados
+*.db
+*.sqlite3
+db_data/
+
+# Arquivos temporários / backup
+*.bak
+*.save
+*.swp
+*.deb
+
