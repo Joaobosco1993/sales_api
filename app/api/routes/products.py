@@ -1,16 +1,16 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session
 
-from ..schemas import ProductCreate, ProductRead
-from ..models import User
-from ..crud import (
+from app.schemas import ProductCreate, ProductRead
+from app.models import User
+from app.crud import (
     create_product,
     get_products,
     get_product,
     update_product,
     delete_product,
 )
-from ..deps import get_db, get_current_user
+from app.deps import get_db, get_current_user
 
 router = APIRouter(
     prefix="/products",

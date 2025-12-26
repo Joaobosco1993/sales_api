@@ -9,7 +9,7 @@ from .crud import create_user, get_user_by_username
 from .auth import verify_password, create_access_token
 from .deps import get_db, get_current_user
 
-from .routers import products, orders
+from app.api.routes import products,orders
 
 
 app = FastAPI(title="Sales API")
