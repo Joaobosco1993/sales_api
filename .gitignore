@@ -1,6 +1,21 @@
+# Python cache
 __pycache__/
 *.pyc
+
+# Ambiente virtual
+.venv/
+
+# Variáveis de ambiente
 .env
+
+# Banco de dados
 .db
+test.db
 db_data/
+
+# Pytest
+.pytest_cache/
+
+# Arquivos de sistema
+.DS_Store
 
